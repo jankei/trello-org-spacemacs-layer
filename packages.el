@@ -61,6 +61,8 @@ which require an initialization must be listed explicitly in the list.")
       (evil-leader/set-key
         "ots" 'org-trello/sync-buffer
         "otc" 'org-trello/sync-card
+        "otj" 'org-trello/jump-to-trello-board
+        "otu" 'org-trello/update-board-metadata
         ))))
 ;;
 ;; Often the body of an initialize function uses `use-package'
